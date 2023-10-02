@@ -9,7 +9,7 @@ public class Main {
         System.out.println("inserisci il secondo numero intero");
         int n2 = Integer.parseInt(input.nextLine());
         System.out.println(n1 + " * " + n2 + " = " + moltiplica(n1, n2));
-        
+
         System.out.println("inserisci un numero intero");
         int n3 = Integer.parseInt(input.nextLine());
         System.out.println("inserisci una stringa");
@@ -25,7 +25,7 @@ public class Main {
         for (int i = 0; i < arrayStrRis.length; i++) {
             System.out.println("p" + (i + 1) + ": " + arrayStrRis[i] + " ");
         }
-
+        input.close();
     }
 
     public static int moltiplica(int a, int b) {
