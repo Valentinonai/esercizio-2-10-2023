@@ -17,10 +17,9 @@ public class Main {
         System.out.println(s1 + " + " + n3 + " = " + concat(n3, s1));
 
         String[] arrayStr = {"prova1", "prova2", "prova3", "prova4", "prova5"};
-        String[] arrayStrRis = new String[6];
         System.out.println("Inserisci la parola da inserire in terza posizione");
         String str = input.nextLine();
-        arrayStrRis = modificaArray(arrayStr, str);
+        String[] arrayStrRis = modificaArray(arrayStr, str);
 
         for (int i = 0; i < arrayStrRis.length; i++) {
             System.out.println("p" + (i + 1) + ": " + arrayStrRis[i] + " ");
